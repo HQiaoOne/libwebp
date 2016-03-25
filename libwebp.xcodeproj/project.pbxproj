@@ -1,0 +1,174 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		4C73E68E1C98E37B00FE3458 /* Android.mk */ = {isa = PBXFileReference; lastKnownFileType = text; path = Android.mk; sourceTree = "<group>"; };
+		4C73E68F1C98E37B00FE3458 /* AUTHORS */ = {isa = PBXFileReference; lastKnownFileType = text; path = AUTHORS; sourceTree = "<group>"; };
+		4C73E6901C98E37B00FE3458 /* autogen.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = autogen.sh; sourceTree = "<group>"; };
+		4C73E6911C98E37B00FE3458 /* ChangeLog */ = {isa = PBXFileReference; lastKnownFileType = text; path = ChangeLog; sourceTree = "<group>"; };
+		4C73E6921C98E37B00FE3458 /* configure.ac */ = {isa = PBXFileReference; lastKnownFileType = text; path = configure.ac; sourceTree = "<group>"; };
+		4C73E6931C98E37B00FE3458 /* COPYING */ = {isa = PBXFileReference; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		4C73E6941C98E37B00FE3458 /* doc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = doc; sourceTree = "<group>"; };
+		4C73E6951C98E37B00FE3458 /* examples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = examples; sourceTree = "<group>"; };
+		4C73E6961C98E37B00FE3458 /* iosbuild.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = iosbuild.sh; sourceTree = "<group>"; };
+		4C73E6971C98E37B00FE3458 /* m4 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = m4; sourceTree = "<group>"; };
+		4C73E6981C98E37B00FE3458 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		4C73E6991C98E37B00FE3458 /* makefile.unix */ = {isa = PBXFileReference; lastKnownFileType = text; path = makefile.unix; sourceTree = "<group>"; };
+		4C73E69A1C98E37B00FE3458 /* Makefile.vc */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.vc; sourceTree = "<group>"; };
+		4C73E69B1C98E37B00FE3458 /* man */ = {isa = PBXFileReference; lastKnownFileType = folder; path = man; sourceTree = "<group>"; };
+		4C73E69C1C98E37B00FE3458 /* NEWS */ = {isa = PBXFileReference; lastKnownFileType = text; path = NEWS; sourceTree = "<group>"; };
+		4C73E69D1C98E37B00FE3458 /* PATENTS */ = {isa = PBXFileReference; lastKnownFileType = text; path = PATENTS; sourceTree = "<group>"; };
+		4C73E69E1C98E37B00FE3458 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		4C73E69F1C98E37B00FE3458 /* README.mux */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.mux; sourceTree = "<group>"; };
+		4C73E6A01C98E37B00FE3458 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
+		4C73E6A11C98E37B00FE3458 /* swig */ = {isa = PBXFileReference; lastKnownFileType = folder; path = swig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		4C73E6881C98E37B00FE3458 = {
+			isa = PBXGroup;
+			children = (
+				4C73E68E1C98E37B00FE3458 /* Android.mk */,
+				4C73E68F1C98E37B00FE3458 /* AUTHORS */,
+				4C73E6901C98E37B00FE3458 /* autogen.sh */,
+				4C73E6911C98E37B00FE3458 /* ChangeLog */,
+				4C73E6921C98E37B00FE3458 /* configure.ac */,
+				4C73E6931C98E37B00FE3458 /* COPYING */,
+				4C73E6941C98E37B00FE3458 /* doc */,
+				4C73E6951C98E37B00FE3458 /* examples */,
+				4C73E6961C98E37B00FE3458 /* iosbuild.sh */,
+				4C73E6971C98E37B00FE3458 /* m4 */,
+				4C73E6981C98E37B00FE3458 /* Makefile.am */,
+				4C73E6991C98E37B00FE3458 /* makefile.unix */,
+				4C73E69A1C98E37B00FE3458 /* Makefile.vc */,
+				4C73E69B1C98E37B00FE3458 /* man */,
+				4C73E69C1C98E37B00FE3458 /* NEWS */,
+				4C73E69D1C98E37B00FE3458 /* PATENTS */,
+				4C73E69E1C98E37B00FE3458 /* README */,
+				4C73E69F1C98E37B00FE3458 /* README.mux */,
+				4C73E6A01C98E37B00FE3458 /* src */,
+				4C73E6A11C98E37B00FE3458 /* swig */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		4C73E68D1C98E37B00FE3458 /* libwebp */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 4C73E6A21C98E37B00FE3458 /* Build configuration list for PBXLegacyTarget "libwebp" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/qiaohui/Downloads/libwebp;
+			dependencies = (
+			);
+			name = libwebp;
+			passBuildSettingsInEnvironment = 1;
+			productName = libwebp;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		4C73E6891C98E37B00FE3458 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 4C73E68C1C98E37B00FE3458 /* Build configuration list for PBXProject "libwebp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C73E6881C98E37B00FE3458;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C73E68D1C98E37B00FE3458 /* libwebp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		4C73E68A1C98E37B00FE3458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		4C73E68B1C98E37B00FE3458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		4C73E6A31C98E37B00FE3458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = libwebp;
+			};
+			name = Debug;
+		};
+		4C73E6A41C98E37B00FE3458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = libwebp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C73E68C1C98E37B00FE3458 /* Build configuration list for PBXProject "libwebp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C73E68A1C98E37B00FE3458 /* Debug */,
+				4C73E68B1C98E37B00FE3458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C73E6A21C98E37B00FE3458 /* Build configuration list for PBXLegacyTarget "libwebp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C73E6A31C98E37B00FE3458 /* Debug */,
+				4C73E6A41C98E37B00FE3458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C73E6891C98E37B00FE3458 /* Project object */;
+}
